@@ -1,0 +1,9 @@
+{
+  "uuid": "googletasks@local",
+  "name": "Google Tasks",
+  "description": "Google Tasks in the calendar menu on GNOME 46 (Ubuntu 24.04). Uses GNOME Online Accounts. Not affiliated with Google.",
+  "shell-version": ["46"],
+  "settings-schema": "org.gnome.shell.extensions.local-google-tasks",
+  "version": 1,
+  "url": "https://github.com/ZTL-UwU/gnome-shell-google-tasks"
+}

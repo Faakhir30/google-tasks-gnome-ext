@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <enum id="org.gnome.shell.extensions.local-google-tasks.TaskSortOrder">
+    <value value="0" nick="my-order"/>
+    <value value="1" nick="date"/>
+    <value value="2" nick="deadline"/>
+    <value value="3" nick="starred-recently"/>
+    <value value="4" nick="title"/>
+  </enum>
+
+  <enum id="org.gnome.shell.extensions.local-google-tasks.TaskTimeframe">
+    <value value="0" nick="all"/>
+    <value value="1" nick="today"/>
+    <value value="2" nick="this-week"/>
+    <value value="3" nick="this-month"/>
+  </enum>
+
+  <schema id="org.gnome.shell.extensions.local-google-tasks" path="/org/gnome/shell/extensions/local-google-tasks/">
+    <key name="refresh-interval" type="i">
+      <default>20</default>
+      <range min="5" max="3600"/>
+      <summary>Refresh interval in seconds</summary>
+      <description>How often to refresh tasks while the calendar menu is open.</description>
+    </key>
+    <key name="task-sort-order" enum="org.gnome.shell.extensions.local-google-tasks.TaskSortOrder">
+      <default>'my-order'</default>
+      <summary>Task sort order</summary>
+      <description>How tasks are sorted in the panel.</description>
+    </key>
+    <key name="show-completed-tasks" type="b">
+      <default>true</default>
+      <summary>Show completed tasks section</summary>
+      <description>Whether to show completed tasks in a collapsible section.</description>
+    </key>
+    <key name="task-timeframe" enum="org.gnome.shell.extensions.local-google-tasks.TaskTimeframe">
+      <default>'all'</default>
+      <summary>Task display timeframe</summary>
+      <description>Which due date range to display in the panel.</description>
+    </key>
+    <key name="selected-list-id" type="s">
+      <default>''</default>
+      <summary>Selected task list id</summary>
+      <description>The Google task list shown in the panel.</description>
+    </key>
+  </schema>
+</schemalist>

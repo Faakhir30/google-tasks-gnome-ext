@@ -1,0 +1,118 @@
+.google-tasks-section {
+    spacing: 4px;
+}
+
+.google-tasks-header {
+    spacing: 6px;
+}
+
+.tasks-list {
+    spacing: 2px;
+}
+
+.task-box {
+    padding: 4px 0;
+    spacing: 10px;
+}
+
+.task-radio {
+    width: 14px;
+    height: 14px;
+    border: 2px solid rgba(128, 128, 128, 0.6);
+    border-radius: 99px;
+    background-color: transparent;
+}
+
+.task-radio:hover {
+    border-color: rgba(128, 128, 128, 0.9);
+}
+
+.task-radio-completed {
+    background-color: rgba(128, 128, 128, 0.4);
+    border-color: rgba(128, 128, 128, 0.6);
+}
+
+.task-label {
+    font-size: 14px;
+}
+
+.task-label-completed {
+    text-decoration: line-through;
+    opacity: 0.45;
+}
+
+.task-description,
+.task-due {
+    font-size: 11px;
+    opacity: 0.55;
+}
+
+.task-due-today {
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+.google-tasks-add-button,
+.task-edit-button,
+.task-subtask-button {
+    border-radius: 8px;
+}
+
+.google-tasks-add-button {
+    width: 28px;
+    height: 28px;
+}
+
+.task-edit-button,
+.task-subtask-button {
+    width: 20px;
+    height: 20px;
+}
+
+.google-tasks-add-button:hover,
+.task-edit-button:hover,
+.task-subtask-button:hover,
+.google-tasks-dropdown-button:hover,
+.tasks-completed-toggle:hover {
+    background-color: rgba(128, 128, 128, 0.25);
+}
+
+.google-tasks-dropdown-button {
+    padding: 4px 8px;
+    border-radius: 8px;
+    background-color: rgba(128, 128, 128, 0.15);
+    font-weight: bold;
+}
+
+.tasks-completed-toggle {
+    margin-top: 4px;
+    padding: 4px 6px;
+    border-radius: 6px;
+}
+
+.tasks-completed-label {
+    font-size: 12px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.google-tasks-status {
+    padding: 4px 2px 8px 2px;
+}
+
+.google-tasks-status-button {
+    border-radius: 8px;
+    padding: 6px 10px;
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+.google-tasks-dialog-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.google-tasks-dialog-entry {
+    min-width: 300px;
+    margin-bottom: 8px;
+}
